@@ -15,6 +15,7 @@ let hashChanged = () => {
       dialog.hidden = true;
     }, { once: true });
     dialog.classList.add("hidden");
+    $("#dialog img").src = "";
   }
 };
 
